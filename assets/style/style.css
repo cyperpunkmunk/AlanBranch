@@ -22,5 +22,9 @@ body {
 .header {
     height: 95vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
 
-    background-image: url(../img/headbasketballpic.jpg) ;
+    background-image: url(../img/headbasketballpic.jpg);
+
+    background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
+
+    background-position: top; /* the top of image always stays at the top instead of staying relevant to screen proportions */
 }
