@@ -1,3 +1,11 @@
+/*
+Colors:
+
+light red: #b31010
+dark red: #521818
+
+*/
+
 *{
     /* where we remove the browser defaults */
 
@@ -14,9 +22,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7; /* spacing between lines */
-    color: rgb(0, 0, 0); /* targets the text color */
+    color: rgb(255, 255, 255); /*targets the text color */
     padding: 30px;
-
+    background-color:#0c0c0c
 }
 
 nav{
@@ -45,7 +53,7 @@ nav{
 .navBar li a{
 
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 nav img{
@@ -56,16 +64,3 @@ nav img{
     margin-right: 5%;
 }
 
-.header {
-    
-    height: 85vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
-
-    background-image: url(../img/headbasketballpic.jpg);
-
-    background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
-
-    background-position: center center; /* the top of image always stays at the top instead of staying relevant to screen proportions */
-
-    margin-top: 20px;
-    position: relative;
-}

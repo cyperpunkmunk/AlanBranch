@@ -1,0 +1,54 @@
+/*
+Colors:
+
+light red: #b31010
+dark red: #521818
+
+*/
+
+.header {
+    
+    height: 85vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
+
+    background-image: linear-gradient(
+        to right bottom,
+        #c20c0c8a ,
+        #521818f1 ), 
+    url(../img/headbasketballpic.jpg);
+
+    background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
+
+    background-position: center; /* the top of image always stays at the top instead of staying relevant to screen proportions */
+
+    margin-top: 20px;
+    position: relative;
+}
+
+.intro{
+    position: absolute;
+    top: 55%;
+    left: 55px;
+    right: 55px;
+}
+
+#welcomeTitle {
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+#about{
+    font-size: 15px;
+}
+
+
+
+#introListUl{
+    list-style-type: none;
+    
+}
+
+#introListUl li{
+    float: left;
+    padding: 15px;
+}
