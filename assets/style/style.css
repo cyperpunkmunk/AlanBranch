@@ -19,12 +19,54 @@ body {
 
 }
 
+nav{
+    height: 8vh;
+    
+}
+
+.navBar{
+    list-style-type: none;
+    
+}
+
+.navBar li {
+
+    float:left; /* use this so that our nav starts on the left */ 
+
+    font-size: 32px;
+
+    text-align: center;
+
+    padding-right: 30px;
+
+    padding-left: 30px;
+}
+
+.navBar li a{
+
+    text-decoration: none;
+    color: black;
+}
+
+nav img{
+    height: 75px;
+    text-align: center;
+    float: right;
+    padding-bottom: 20px;
+    margin-right: 10%;
+
+
+}
+
 .header {
-    height: 95vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
+    
+    height: 85vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
 
     background-image: url(../img/headbasketballpic.jpg);
 
     background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
 
-    background-position: top; /* the top of image always stays at the top instead of staying relevant to screen proportions */
+    background-position: center center; /* the top of image always stays at the top instead of staying relevant to screen proportions */
+
+    position: relative;
 }
