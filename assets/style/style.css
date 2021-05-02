@@ -26,7 +26,7 @@ nav{
 
 .navBar{
     list-style-type: none;
-    
+    padding-top: 10px;
 }
 
 .navBar li {
@@ -39,7 +39,7 @@ nav{
 
     padding-right: 30px;
 
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .navBar li a{
@@ -49,12 +49,12 @@ nav{
 }
 
 nav img{
-    height: 75px;
+    height: 70px;
     text-align: center;
     float: right;
-    padding-bottom: 20px;
+    padding-bottom: 12px;
+    
     margin-right: 10%;
-
 
 }
 
@@ -68,5 +68,6 @@ nav img{
 
     background-position: center center; /* the top of image always stays at the top instead of staying relevant to screen proportions */
 
+    margin-top: 20px;
     position: relative;
 }
