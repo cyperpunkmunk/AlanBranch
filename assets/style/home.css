@@ -20,7 +20,7 @@ dark red: #521818
 
     background-position: center; /* the top of image always stays at the top instead of staying relevant to screen proportions */
 
-    margin-top: 20px;
+    margin-top: 10px;
     position: relative;
 }
 
