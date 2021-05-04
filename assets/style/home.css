@@ -33,16 +33,28 @@ dark red: #521818
 
 #welcomeTitle {
     font-size: 50px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 50;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans' , sans-serif;
     color: white;
+
+    animation-name: titleMoveIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    
 }
 
 #about{
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 0;
+
+    animation-name: titleMoveIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+
 }
 
 
@@ -55,4 +67,35 @@ dark red: #521818
 #introListUl li{
     float: left;
     padding: 15px;
+    
+    animation-name: titleMoveIn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+
+}
+
+
+@keyframes titleMoveIn {
+    /* 0% is the start of the animation */
+    0% { 
+
+        /* move down -30px at the start and opacity is 0*/
+        opacity:0;
+        transform: translateY(-30px);
+    }
+
+    /*a point in the middle of the animation*/
+    80% {
+        
+    }
+
+    /* 100% is when the animation is complete */
+    100% {
+        /* ath the end opacity is 1 and its back to the original position*/
+        opacity: 1;
+        transform: translate(0);
+    }
+
 }

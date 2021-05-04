@@ -65,3 +65,26 @@ nav img{
     margin-right: 5%;
 }
 
+/* how to declare we want to work work with keyframes and MoveInLeft is just the function name  */
+@keyframes titleMoveIn {
+    /* 0% is the start of the animation */
+    0% { 
+
+        /* move left 100px at the start and opacity is 0*/
+        opacity:0;
+        transform: translateY(-30px);
+    }
+
+    /*a point in the middle of the animation*/
+    80% {
+        
+    }
+
+    /* 100% is when the animation is complete */
+    100% {
+        /* ath the end opacity is 1 and its back to the original position*/
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
