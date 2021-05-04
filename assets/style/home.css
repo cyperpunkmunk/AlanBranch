@@ -33,12 +33,16 @@ dark red: #521818
 
 #welcomeTitle {
     font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 50;
     font-family: 'Noto Sans', sans-serif;
     color: white;
 }
 
 #about{
     font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 0;
 }
 
 
