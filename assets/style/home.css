@@ -22,6 +22,7 @@ dark red: #521818
 
     margin-top: 10px;
     position: relative;
+    background-attachment: fixed; /* background scroll with the page*/
 }
 
 .intro{
@@ -74,6 +75,34 @@ dark red: #521818
     animation-delay: 2s;
     animation-fill-mode: backwards;
 
+}
+
+.event{
+
+}
+
+.card {
+    height: 520px;
+    width: 420px;
+    position: absolute;
+    top: 20vh;
+    left: 15%;
+}
+
+
+.eventSection {
+    margin-top: 20vh;
+    position: relative;
+}
+
+.homeEventTitle{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing:1px;
+    background: -webkit-linear-gradient(#ffffff,#b31010 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 
