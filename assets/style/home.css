@@ -96,7 +96,21 @@ dark red: #521818
     margin-top: 20vh;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #b3101060;
+    
+
+    background-image: linear-gradient(
+        to right bottom,
+        #c20c0c8a ,
+        #521818f1 ), 
+    url(../img/2021_Hannibal1_USCAthletics.jpg);
+
+    background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
+
+    background-position: center; /* the top of image always stays at the top instead of staying relevant to screen proportions */
+
+    
+    position: relative;
+    background-attachment: fixed; /* background scroll with the page*/
  
 }
 
@@ -105,7 +119,7 @@ dark red: #521818
     font-size: 40px;
     font-weight: 500;
     letter-spacing:1px;
-    background: -webkit-linear-gradient(#ffffff,#b31010 );
+    background: -webkit-linear-gradient(#ffffff,#b310100a );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
