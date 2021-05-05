@@ -12,8 +12,8 @@ dark red: #521818
 
     background-image: linear-gradient(
         to right bottom,
-        #c20c0c8a ,
-        #521818f1 ), 
+        #ff7575cc  ,
+        #d61212d0 ), 
     url(../img/headbasketballpic.jpg);
 
     background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
@@ -99,8 +99,9 @@ dark red: #521818
 
     background-image: linear-gradient(
         to right bottom,
-        #c20c0c8a ,
-        #521818f1 ), 
+        #ebebebe0 ,
+        #f8d92ca8 ,
+        #e63030d8 ), 
     url(../img/2021_Hannibal1_USCAthletics.jpg);
 
     background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
@@ -132,7 +133,7 @@ dark red: #521818
     font-size: 45px;
     line-height: 110px;
 
-    background: -webkit-linear-gradient(#ffffff,#b310100a );
+    background: -webkit-linear-gradient(#ffffff,#ffffff );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
@@ -151,12 +152,12 @@ dark red: #521818
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
 }
 
 .btn:active {
     transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
 }
 
 .btn-white {
@@ -193,18 +194,23 @@ dark red: #521818
     animation-fill-mode:backwards;
 }
 
+/*
+triple the size of the basketball
 
+add the links for the instagram and twittwer
 
+lighter 
+could go gold 
 
-
+*/
 .vidSection{
     margin-top: 20vh;
     text-align: center;
 
     background-image: linear-gradient(
         to right bottom,
-        #521818f1,
-        #c20c0c8a), 
+        #f8d92cee,
+        #bd3030ee), 
     url(../img/Whitfield_D50_3008.jpg);
 
     background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
@@ -227,19 +233,16 @@ dark red: #521818
 
 iframe {
     
-    padding-top: 30px;
+    padding-top: 40px;
+    
 }
+
+
 
 
 footer{
-    position: relative;
-    bottom: 0;
-}
-
-.footer{
-    background-color:blue;
-    height: 21vh;
-    
+    height: 30vh;
+    background-color: #777;
 }
 
 
