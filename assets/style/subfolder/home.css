@@ -281,7 +281,7 @@ footer{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    
+
     .header {
     
         height: 85vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
@@ -418,9 +418,7 @@ footer{
 /* devices (portrait tablets and large phones, 992px and down) */
 @media only screen and (max-width: 992px) {
     
-
-
-
+   
     .header {
     
         height: 80vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
@@ -435,13 +433,13 @@ footer{
     }
     
     #welcomeTitle {
-        font-size: 27px;
+        font-size: 30px;
         letter-spacing: 1px;
         line-height: 35px;
         font-weight: 50;
         font-family: 'Open Sans' , sans-serif;
         color: white;
-    
+        text-align: center;
         
     }
     
@@ -453,8 +451,8 @@ footer{
     
     #introListUl li{
         
-        float: left;
-        padding-top: 10px;
+       
+        padding-top: 20px;
         
         animation-name: titleMoveIn;
         animation-duration: 1.5s;
@@ -465,10 +463,12 @@ footer{
     }
 
     #about{
-        padding-top: 50px;
-        font-size: 13px;
+        text-align: center;
+        padding-top: 60px;
+        font-size: 15px;
         font-weight: 100;
-        letter-spacing: 0;
+        letter-spacing: 1;
+        line-height: 25px;
  
     }
     
@@ -488,7 +488,7 @@ footer{
         width: 221px;
         height: 330px;
         border-radius: 20px;
-        transform: translate(20%,0%);
+        transform: translate(34%,0%);
         
     }
     .eventSection {
@@ -526,7 +526,7 @@ footer{
     }
     
     .btn-white {
-        margin-top: 20px;
+        margin-top: 10px;
         background-color: #fff;
         color: #777;
     }
@@ -562,6 +562,55 @@ footer{
         flex-direction: column;
         background-color: #bd3030ee;
     }
+
+    .btn:link,
+    .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 8px 30px;
+        display: inline-block;
+        border-radius: 100px;
+        transition: all .2s;
+        position:relative;
+    }
+
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+    }
+
+    .btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    }
+
+    .btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        
+        transition: all .4s;
+    }
+
+    .btn-white::after{
+        background-color: #fff;
+    }
+
+    .btn:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+    }
+
+    .btn-animated {
+        animation: moveInBtn .5s ease-out .75s;
+        animation-fill-mode:backwards;
+    }
  
 }
 
@@ -569,7 +618,7 @@ footer{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 993px) {
-            
+    
     .header {
     
         height: 85vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
@@ -796,4 +845,60 @@ footer{
         flex-direction: column;
         background-color: #bd3030ee;
     }
+
+
+    .btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position:relative;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+}
+
+.btn-white {
+    margin-top: 60px;
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+    transition: all .4s;
+}
+
+.btn-white::after{
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBtn .5s ease-out .75s;
+    animation-fill-mode:backwards;
+}
 }
