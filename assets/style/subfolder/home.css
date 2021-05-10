@@ -204,7 +204,7 @@ could go gold
 
 */
 .vidSection{
-    margin-top: 20vh;
+    margin-top: 0vh;
     padding-bottom: 60px;
     text-align: center;
 
@@ -282,16 +282,6 @@ footer{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
-
-    
-
-  
-
-}
-
-/* devices (portrait tablets and large phones, 992px and down) */
-@media only screen and (max-width: 992px) {
- 
     .header {
     
         height: 85vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
@@ -301,8 +291,7 @@ footer{
     .intro{
         position: absolute;
         top: 55%;
-        left: 55px;
-        right: 55px;
+      
     }
     
     #welcomeTitle {
@@ -316,24 +305,42 @@ footer{
     }
     
     #about{
+        
         font-size: 15px;
         font-weight: 100;
         letter-spacing: 0;
  
     }
+
+    #introListUl{
+        list-style-type: none;
+        
+    }
+    
+    #introListUl li{
+        float: left;
+        padding: 10px;
+        
+        animation-name: titleMoveIn;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-out;
+        animation-delay: 2s;
+        animation-fill-mode: backwards;
+    
+    }
     
     
     .event{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-top: 40px;
         height:70vh;
         justify-content: space-around;
     }
     
     .card {
-        height: 620px;
-        width: 420px;
+        height: 320px;
+       
         border-radius: 20px;
     
     }
@@ -372,7 +379,7 @@ footer{
     
     
     .vidSection{
-        margin-top: 20vh;
+        
         padding-bottom: 60px;
         text-align: center;
     
@@ -380,7 +387,7 @@ footer{
     }
     
     .eventTypo{
-        margin-top: 20vh;
+      
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -396,6 +403,159 @@ footer{
     
     footer{
         height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: #bd3030ee;
+    }
+    
+
+  
+
+}
+
+/* devices (portrait tablets and large phones, 992px and down) */
+@media only screen and (max-width: 992px) {
+    
+
+
+
+    .header {
+    
+        height: 80vh; /* at every point the element is '' percent of the vertical height and not the full 100% so we use it to make vertical positions smaller */
+    
+    }
+    
+    .intro{
+        position: absolute;
+        top: 10%;
+        left: 20px;
+        right: 20px;
+    }
+    
+    #welcomeTitle {
+        font-size: 27px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        font-weight: 50;
+        font-family: 'Open Sans' , sans-serif;
+        color: white;
+    
+        
+    }
+    
+    #introListUl{
+        list-style-type: none;
+        line-height: 30px;
+        padding-top:0px
+    }
+    
+    #introListUl li{
+        
+        float: left;
+        padding-top: 10px;
+        
+        animation-name: titleMoveIn;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-out;
+        animation-delay: 2s;
+        animation-fill-mode: backwards;
+    
+    }
+
+    #about{
+        padding-top: 50px;
+        font-size: 13px;
+        font-weight: 100;
+        letter-spacing: 0;
+ 
+    }
+    
+    
+    .event{
+        display: flex;
+        flex-direction: column;
+        margin-top:50px;
+        height:70vh;
+        
+        align-content: center;
+        justify-content: center;
+        
+    }
+    
+    .card {
+        width: 221px;
+        height: 330px;
+        border-radius: 20px;
+        transform: translate(20%,0%);
+        
+    }
+    .eventSection {
+        margin-top: 10vh;
+        padding-top: 20px;
+       
+         
+     
+    }
+    
+    
+    .homeEventTitle{
+        font-family: "Montserrat" , sans-serif;
+        font-size: 30px;
+        font-weight: 400;;
+        letter-spacing:1px;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    .eventInfo{
+        
+        text-align: center;
+    }
+    
+    .eventInfo p{
+        font-size: 20px;
+        line-height: 50px;
+    
+        background: -webkit-linear-gradient(#ffffff,#ffffff );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    
+    .btn-white {
+        margin-top: 20px;
+        background-color: #fff;
+        color: #777;
+    }
+    
+    .vidSection{
+       
+       
+        text-align: center;
+    
+    
+    }
+    
+    .eventTypo{
+        margin-top: 10vh;
+        
+        
+    }
+    
+    
+    
+    iframe {
+        
+        padding-top: 20px;
+        width: 90%;
+        height: 200px;
+    }
+    
+    footer{
+        height: 20vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -462,6 +622,8 @@ footer{
          
      
     }
+
+    
     
     
     .homeEventTitle{

@@ -42,7 +42,7 @@ nav{
 .navBar{
     list-style-type: none;
     padding-top: 10px;
-    margin-left:20px ;
+    
     
 }
 
@@ -149,6 +149,7 @@ nav img{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
+    
     nav{
         display:block;
     }
@@ -177,6 +178,24 @@ nav img{
 
 /* devices (portrait tablets and large phones, 992px and down) */
 @media only screen and (max-width: 992px) {
+
+    body {
+    
+        font-family: "Montserrat" , sans-serif; /* font we imported from google fonts */
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.7; /* spacing between lines */
+        color: rgb(255, 255, 255); /*targets the text color */
+        padding: 30px;
+    
+        background-image: linear-gradient(
+            to right,
+            #d1d1d1,
+            #ffdfdfea ), 
+        url(../img/D6A_8415A.jpg);
+        
+    }
+
     nav{
         display:block;
     }
@@ -207,6 +226,23 @@ nav img{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 993px) {
             
+    body {
+    
+        font-family: "Montserrat" , sans-serif; /* font we imported from google fonts */
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.7; /* spacing between lines */
+        color: rgb(255, 255, 255); /*targets the text color */
+        padding: 30px;
+    
+        background-image: linear-gradient(
+            to right,
+            #d1d1d1,
+            #ffdfdfea ), 
+        url(../img/D6A_8415A.jpg);
+        
+    }
+
     nav{
         height: 6vh;
         position: relative;
