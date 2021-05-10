@@ -250,7 +250,9 @@ footer{
     background-color: #bd3030ee;
 }
 
-
+.homeEventTitle{
+    padding-top: 20px;
+}
 
 @keyframes titleMoveIn {
     /* 0% is the start of the animation */
@@ -277,6 +279,10 @@ footer{
 
 }
 
+.eventPage{
+    background-image: linear-gradient(to right bottom, #ffd1d1e0,  #fffd9fd8 );
+    
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -476,26 +482,27 @@ footer{
     .event{
         display: flex;
         flex-direction: column;
-        margin-top:40px;
+        margin-top:30px;
         height:70vh;
-        
-        align-content: center;
-        justify-content: center;
-        
+       
+        padding-bottom: 50px;
     }
     
+   
     .card {
         width: 221px;
         height: 330px;
         border-radius: 20px;
-        transform: translate(33%,0%);
+        
+        position: relative;
+        left: 20%;
         
     }
     .eventSection {
         margin-top: 10vh;
         padding-top: 20px;
        
-         
+        
      
     }
     
@@ -678,7 +685,7 @@ footer{
     .homeEventTitle{
         font-family: "Montserrat" , sans-serif;
         font-size: 30px;
-        font-weight: 400;;
+        font-weight: 400;
         letter-spacing:1px;
         color: white;
         text-align: center;
@@ -776,8 +783,8 @@ footer{
     }
     
     .card {
-        height: 520px;
-        width: 420px;
+        height: 600px;
+        width: 500px;
         border-radius: 20px;
     
     }
@@ -902,3 +909,5 @@ footer{
     animation-fill-mode:backwards;
 }
 }
+
+

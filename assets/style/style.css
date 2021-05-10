@@ -97,7 +97,7 @@ nav img{
     padding-left: 5px;
     border: none;
     outline: none;
-    background-color: rgb(129, 129, 129);
+    background-color: #cfcfcfee;
     border-radius: 5px;
 }
 .form label {
@@ -122,7 +122,7 @@ nav img{
     width: 100%;
     border-bottom: 3px solid #f8d92cee;
     transform:translateX(-100%);
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
 }
 .content-name {
     position: absolute;

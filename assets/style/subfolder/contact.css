@@ -1,0 +1,382 @@
+.section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+section{
+    background-image: linear-gradient(
+        to right bottom,
+        #ff7575cc  ,
+        #d61212d0 ), 
+    url(../../img/stands.jpg);
+
+
+    background-position: top; /* the top of image always stays at the top instead of staying relevant to screen proportions */
+
+    margin-top: 10px;
+    position: relative;
+    background-attachment: fixed; /* background scroll with the page*/
+
+    height: 85vh;
+}
+
+
+
+
+
+
+
+.box{
+    width:600px;
+    
+    background: transparent;
+   
+}
+
+p {
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+}
+
+.mediaText{
+    
+    font-size: 20px;
+    max-width: 50%;
+}
+
+
+
+.box input[type = 'text'],.box textarea{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    
+    border: 2px solid white;
+    padding: 14px 10px;
+    width: 520px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    resize: none;
+    padding: 30px;
+}
+
+.box ::placeholder{
+    color: white;
+}
+
+.box input[type = 'text']:focus,.box textarea :focus{
+
+    transform: scale(1.05);
+    border-color: #f8d92cee;
+
+}
+
+.box :placeholder-shown :focus{
+
+   color: red;
+}
+
+.box input[type = 'submit']{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 14px 40px;
+    
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = 'submit']:hover {
+    background: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+   
+
+}
+
+/* devices (portrait tablets and large phones, 992px and down) */
+@media only screen and (max-width: 992px) {
+
+    .contact{
+        position: relative;
+    }
+
+    section{
+        height: 100vh;
+    }
+    .section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-top: 20px;
+        
+    }
+
+    p {
+        color:white;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+        padding: 20px;
+        font-size: 15px;
+    }
+
+
+    iframe{
+        width: 80%;
+        height: 30vh;
+        text-align: center;
+        position: relative;
+        left: 10%;
+    }
+
+      
+    .box{
+        width:100%;
+        
+        background: transparent;
+       
+    }
+
+
+
+    .box input[type = 'text'],.box textarea{
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        
+        border: 2px solid white;
+        padding: 8px 10px;
+        width: 80%;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        resize: none;
+       
+    }
+    
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) {
+            
+    .section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 20px;
+        
+    }
+    section{
+        background-image: linear-gradient(
+            to right bottom,
+            #ff7575cc  ,
+            #d61212d0 ), 
+        url(../../img/stands.jpg);
+    
+    
+        background-position: top; /* the top of image always stays at the top instead of staying relevant to screen proportions */
+    
+        margin-top: 10px;
+        position: relative;
+        background-attachment: fixed; /* background scroll with the page*/
+    
+        height: 85vh;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    .box{
+        width:300px;
+        
+        background: transparent;
+       
+    }
+    
+    p {
+        color:white;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+        padding: 40px;
+        font-size: 30px;
+    }
+    .box input[type = 'text'],.box textarea{
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        
+        border: 2px solid white;
+        padding: 20px 10px;
+        width: 100%;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        resize: none;
+       
+    }
+    
+    .box ::placeholder{
+        color: white;
+    }
+    
+  
+    
+  
+    .box input[type = 'submit']{
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid white;
+        padding: 14px 40px;
+        
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+    
+    .box input[type = 'submit']:hover {
+        background: white;
+    }
+
+    iframe{
+        width: 100%;
+        height: 80%;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+ 
+    .section{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+    section{
+        background-image: linear-gradient(
+            to right bottom,
+            #ff7575cc  ,
+            #d61212d0 ), 
+        url(../../img/stands.jpg);
+    
+    
+        background-position: top; /* the top of image always stays at the top instead of staying relevant to screen proportions */
+    
+        margin-top: 10px;
+        position: relative;
+        background-attachment: fixed; /* background scroll with the page*/
+    
+        height: 85vh;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .box{
+        width:600px;
+        
+        background: transparent;
+       
+    }
+    
+    p {
+        color:white;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+        padding: 40px;
+        font-size: 30px;
+    }
+    .box input[type = 'text'],.box textarea{
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        
+        border: 2px solid white;
+        
+        width: 520px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        resize: none;
+        padding: 25px;
+    }
+    
+    .box ::placeholder{
+        color: white;
+    }
+    
+    .box input[type = 'text']:focus,.box textarea :focus{
+    
+        transform: scale(1.05);
+        border-color: #f8d92cee;
+    
+    }
+    
+    .box :placeholder-shown :focus{
+    
+       color: red;
+    }
+    
+    .box input[type = 'submit']{
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid white;
+        padding: 14px 40px;
+        
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+    
+    .box input[type = 'submit']:hover {
+        background: white;
+    }
+
+    iframe{
+        
+        width:600px;
+        height:500px; 
+    }
+}
