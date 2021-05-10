@@ -476,7 +476,7 @@ footer{
     .event{
         display: flex;
         flex-direction: column;
-        margin-top:50px;
+        margin-top:40px;
         height:70vh;
         
         align-content: center;
@@ -488,7 +488,7 @@ footer{
         width: 221px;
         height: 330px;
         border-radius: 20px;
-        transform: translate(34%,0%);
+        transform: translate(33%,0%);
         
     }
     .eventSection {
@@ -507,7 +507,7 @@ footer{
         letter-spacing:1px;
         color: white;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 20px;
     }
     
     .eventInfo{
@@ -659,8 +659,8 @@ footer{
     }
     
     .card {
-        height: 620px;
-        width: 420px;
+        height: 500px;
+        width: 350px;
         border-radius: 20px;
     
     }
@@ -776,7 +776,7 @@ footer{
     }
     
     .card {
-        height: 620px;
+        height: 520px;
         width: 420px;
         border-radius: 20px;
     
