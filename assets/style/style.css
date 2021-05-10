@@ -36,12 +36,14 @@ body {
 nav{
     height: 8vh;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .navBar{
     list-style-type: none;
     padding-top: 10px;
     margin-left:20px ;
+    
 }
 
 .navBar li {
@@ -73,69 +75,6 @@ nav img{
 
 
 }
-
-
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    
-
-   
-    height: 60px;
-    border-top: 1px solid #000;
-    position: fixed;
-    top: 50px;
-    right: 50px;
-    z-index: 100;
-    opacity: 1;
-    }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    
-    height: 60px;
-    border-top: 1px solid #000;
-    position: fixed;
-    top: 50px;
-    right: 50px;
-    z-index: 100;
-    opacity: 1;
-
-    
-  }
-  
-  /* Dropdown Content (Hidden by Default)*/ 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  /*
-   Links inside the dropdown 
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover 
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown
-  .dropdown:hover .dropbtn {background-color: #3e8e41;} */ 
 
 
 
@@ -206,3 +145,144 @@ nav img{
     
 }
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    nav{
+        display:block;
+    }
+    .navBar{
+        display: none;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    nav img{
+        height: 90%;
+        
+        
+        position:static;
+        
+        right: 50vw;
+        
+        transform: translate(0%, 0%);
+    }
+
+  
+
+}
+
+/* devices (portrait tablets and large phones, 992px and down) */
+@media only screen and (max-width: 992px) {
+    nav{
+        display:block;
+    }
+    .navBar{
+        display: none;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    nav img{
+        height: 100%;
+        
+        
+        position:static;
+        
+        right: 50vw;
+        
+        transform: translate(0%, 0%);
+    }
+
+ 
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) {
+            
+    nav{
+        height: 6vh;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .navBar{
+        list-style-type: none;
+        padding-top: 10px;
+        margin-left: 15px ;
+        
+    }
+
+    .navBar li {
+
+        float:left; /* use this so that our nav starts on the left */ 
+
+        font-size: 24px;
+
+        text-align: center;
+
+        padding-right: 15px;
+
+        padding-left: 10px;
+    }
+    
+    nav img{
+        height: 80px;
+        position:absolute;
+        text-align: center;
+        right: 0px;
+        top: 0px;
+        transform: translate(-50%, -20%);
+    }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    nav{
+        height: 8vh;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .navBar{
+        list-style-type: none;
+        padding-top: 10px;
+        margin-left:20px ;
+        
+    }
+    
+    .navBar li {
+    
+        float:left; /* use this so that our nav starts on the left */ 
+    
+        font-size: 32px;
+    
+        text-align: center;
+    
+        padding-right: 20px;
+    
+        padding-left: 15px;
+    }
+    
+    .navBar li a{
+    
+        text-decoration: none;
+        color: rgb(252, 64, 64);
+    }
+    
+    nav img{
+        height: 100px;
+        position:absolute;
+        text-align: center;
+        right: 0px;
+        top: 0px;
+        transform: translate(-50%, -20%);
+    }
+}
