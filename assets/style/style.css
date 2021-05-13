@@ -166,7 +166,7 @@ nav img{
     font-size: 22px;
     display: block;
     text-decoration: none;
-    padding: 2em 0;
+    padding: 1.5em 0;
     transition: 0.3s ease-out;
     
 }
@@ -416,3 +416,15 @@ nav img{
 
 }
 
+@media only screen and (max-height: 772px) {
+    nav img {
+
+        height: 70px;
+        position:absolute;
+        text-align: center;
+        right: 0px;
+        top: 0px;
+        transform: translate(-50%, 0%);
+
+    }
+}

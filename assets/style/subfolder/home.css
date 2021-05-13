@@ -280,7 +280,7 @@ footer{
 }
 
 .eventPage{
-    
+
     background-image: linear-gradient(to right bottom, #ffd1d1e0,  #fffd9fd8 );
     
 }
@@ -492,7 +492,7 @@ footer{
    
     .card {
         width: 221px;
-        height: 330px;
+        height: 240px;
         border-radius: 20px;
         
         align-self: center;
@@ -514,7 +514,7 @@ footer{
         letter-spacing:1px;
         color: white;
         text-align: center;
-        padding-top: 20px;
+        padding-top: px;
         padding-bottom: 20px;
     }
     
@@ -664,6 +664,7 @@ footer{
         margin-top: 40px;
         height:70vh;
         justify-content: space-around;
+        
     }
     
     .card {
@@ -914,3 +915,40 @@ footer{
 }
 
 
+@media only screen and (max-height: 641px) {
+ 
+    #about{
+        
+        font-weight: 100;
+        letter-spacing: 0;
+ 
+    }
+    
+    
+    .event{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        height:70vh;
+        justify-content: space-around;
+        
+    }
+    
+    .card {
+        height: 240px;
+       
+        border-radius: 20px;
+    
+    }
+    .eventSection {
+        margin-top: 5vh;
+        padding-top: 15px;
+        padding-bottom: 20px;
+         
+     
+    }
+
+  
+        
+
+}
