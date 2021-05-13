@@ -1,15 +1,98 @@
-section {
-    height: 95vh;
-    background-color: aqua;
+
+section{
+    
+   
+    
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    
+    padding-bottom:50px ;
 }
 
 .my-custom-scrollbar {
     position: relative;
-    height: 200px;
+    height: 80vh;
     overflow: auto;
-    background-color: bisque;
+    background-image: linear-gradient(
+        to right bottom,
+        #f8d92cee,
+        #bd3030ee), 
+    url(../../img/texasgrassonegy.jpg);;
+    margin: 50px 0 0 50px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+   
+    
     }
     .table-wrapper-scroll-y {
     display: block;
+}
+    
+thead{
+    display: flex;
+    justify-content: center;
+    
+    font-size: 40px;
+    background-color: #bd3030ee;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    
+}
+.alumnis{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+tr {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 25px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    
+    thead{
+        display: flex;
+        justify-content: center;
+        
+        font-size: 20px;
+        background-color: #bd3030ee;
+        word-spacing: 2px;
+        letter-spacing: 1.5px;
+        
     }
     
+    .my-custom-scrollbar {
+        position: relative;
+        height: 400px;
+        overflow: auto;
+        background-image: linear-gradient(
+            to right bottom,
+            #f8d92cee,
+            #bd3030ee), 
+        url(../../img/texasgrassonegy.jpg);;
+        margin: 50px 0 0 50px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+       
+        
+        }
+        .table-wrapper-scroll-y {
+        display: block;
+    }
+
+    tr {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-size: 20px;
+    }
+        
+}
