@@ -313,9 +313,7 @@ footer{
     
     #about{
         
-        font-size: 15px;
-        font-weight: 100;
-        letter-spacing: 0;
+       
  
     }
 
@@ -446,31 +444,45 @@ footer{
     
     #introListUl{
         list-style-type: none;
-        line-height: 30px;
-        padding-top:0px
+        line-height: 20px;
+        padding-top:40px;
+        display: block;
+        position: relative;
+      
+        
     }
+
+    #introListUl li p {
+      font-size: 10px;
+    }
+    
     
     #introListUl li{
         
        
-        padding-top: 20px;
+        padding-top: 80px;
         
         animation-name: titleMoveIn;
         animation-duration: 1.5s;
         animation-timing-function: ease-out;
         animation-delay: 2s;
         animation-fill-mode: backwards;
+        display: inline;
+       align-self: center;
     
     }
 
     #about{
         text-align: center;
-        padding-top: 60px;
+        padding-top: 30px;
         font-size: 15px;
         font-weight: 100;
         letter-spacing: 1;
         line-height: 25px;
  
+    }
+    .linksHead{
+       text-align: center;
     }
     
     
