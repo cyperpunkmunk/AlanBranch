@@ -14,7 +14,7 @@ dark red: #521818
         to right bottom,
         #ff7575cc  ,
         #d61212d0 ), 
-    url(../../img/headbasketballpic.jpg);
+    url(../../img/texasgrasspic.jpg);
 
     background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
 
@@ -102,7 +102,7 @@ dark red: #521818
         #ebebebe0 ,
         #f8d92ca8 ,
         #e63030d8 ), 
-    url(../../img/2021_Hannibal1_USCAthletics.jpg);
+    url(../../img/texasgrasswide.jpg);
 
     background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
 
@@ -212,7 +212,7 @@ could go gold
         to right bottom,
         #f8d92cee,
         #bd3030ee), 
-    url(../../img/Whitfield_D50_3008.jpg);
+    url(../../img/texasgrassonegy.jpg);
 
     background-size: cover; /* whatever the width of the viewport it will always try to fit the whole element in the viewport */
 
@@ -494,8 +494,7 @@ footer{
         height: 330px;
         border-radius: 20px;
         
-        position: relative;
-        left: 20%;
+        align-self: center;
         
     }
     .eventSection {
@@ -784,8 +783,9 @@ footer{
     }
     
     .card {
-        height: 600px;
-        width: 500px;
+        margin-top: 30px;
+        height: 500px;
+        
         border-radius: 20px;
     
     }

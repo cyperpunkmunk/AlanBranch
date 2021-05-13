@@ -2,3 +2,14 @@ section {
     height: 95vh;
     background-color: aqua;
 }
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+    background-color: bisque;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+    
