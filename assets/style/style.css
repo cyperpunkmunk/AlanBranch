@@ -147,6 +147,45 @@ nav img{
 }
 
 
+
+.hamNav{
+    width: 0%;
+    overflow-x:hidden;
+    height: 100vh;
+    z-index: 1 ;
+    position:fixed;
+    background-color: rgba(137, 134, 139, 0.349);
+    transition: 0.5;
+    display: block;
+  
+}
+
+.hamNav a{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    display: block;
+    text-decoration: none;
+    padding: 2em 0;
+    transition: 0.3s ease-out;
+    
+}
+
+.close {
+    position: relative;
+    
+    top:3vh;
+    
+}
+
+.hamNav a:not(:first-child):hover{
+    
+    background-color: #f7f7f7;
+
+        
+    
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
@@ -166,12 +205,11 @@ nav img{
     }
 
     nav img{
-        height: 90%;
-        
+        height: 100%;
         
         position:static;
         
-        right: 50vw;
+        left: 50vw;
         
         transform: translate(0%, 0%);
     }
@@ -197,16 +235,51 @@ nav img{
     nav li {
         display: none;
     }
-
+    
     nav img{
-        height: 100%;
+        height: 90%;
+        position:absolute;
+        text-align: center;
+        right: 0px;
+        top: 0px;
+        transform: translate(-50%, 25%);
+    }
+
+    .open {
+
+
+        color:white;
+        font-size:25px;
+       
+        position:relative ;
+
+        display: block;
+        cursor: pointer;
+        left: 3px;
+        padding-left:5%;
+        top:3vh;
         
-        
-        position:static;
-        
-        right: 50vw;
-        
-        transform: translate(10%, 15%);
+     
+    }
+
+    .wrapper{
+       
+        position:absolute;
+        top: 0px;
+        right:0px;
+        width: 100%;
+    }
+
+    .hamNav {
+
+        width: 100%;
+        overflow-x:hidden;
+        height: 100vh;
+        z-index: 1 ;
+        position:fixed;
+        background-color: rgba(226, 51, 28, 0.89);
+        transition: 0.5;
+        display: block;
     }
 
  
@@ -220,18 +293,17 @@ nav img{
     body {
     
         padding: 30px;
-    
-     
         
     }
 
-    nav{
+    nav {
         height: 6vh;
         position: relative;
         margin-bottom: 20px;
     }
     
-    .navBar{
+    .navBar {
+
         list-style-type: none;
         padding-top: 10px;
         margin-left: 15px ;
@@ -251,18 +323,46 @@ nav img{
         padding-left: 10px;
     }
     
-    nav img{
+    nav img {
+
         height: 80px;
         position:absolute;
         text-align: center;
         right: 0px;
         top: 0px;
         transform: translate(-50%, -20%);
+
+    }
+
+    .open {
+
+        color:rgb(24, 22, 22);
+        font-size:30px;
+        
+        display: none;
+        cursor: pointer;
+    }
+
+    
+    .hamNav{
+        width: 0%;
+        overflow-x:hidden;
+        height: 100vh;
+        z-index: 1 ;
+        position:fixed;
+        background-color: rgba(196, 178, 207, 0.349);
+        transition: 0.5;
+        display: none;
+    }
+
+    .wrapper{
+        display: none;
     }
 
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    
     body{
         padding: 30px;
     }
@@ -308,5 +408,11 @@ nav img{
         top: 0px;
         transform: translate(-50%, -20%);
     }
+
+
+    
+
+
+
 }
 
