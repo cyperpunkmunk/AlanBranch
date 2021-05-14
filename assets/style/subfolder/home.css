@@ -281,7 +281,7 @@ footer{
 
 .eventPage{
 
-    background-image: linear-gradient(to right bottom, #ffd1d1e0,  #fffd9fd8 );
+    background-image: linear-gradient(to right bottom, #ff5959e0,  #fffd9fd8 );
     
 }
 
@@ -454,6 +454,7 @@ footer{
 
     #introListUl li p {
       font-size: 10px;
+      
     }
     
     
@@ -461,14 +462,15 @@ footer{
         
        
         padding-top: 80px;
-        
+        padding-left: 5%;
+        padding-right: 5%;
         animation-name: titleMoveIn;
         animation-duration: 1.5s;
         animation-timing-function: ease-out;
         animation-delay: 2s;
         animation-fill-mode: backwards;
         display: inline;
-       align-self: center;
+        align-self: center;
     
     }
 
@@ -498,7 +500,7 @@ footer{
    
     .card {
         width: 221px;
-        height: 240px;
+        height: 300px;
         border-radius: 20px;
         
         align-self: center;
@@ -506,7 +508,7 @@ footer{
     }
     .eventSection {
         margin-top: 10vh;
-        padding-top: 20px;
+        padding-top: 10px;
        
         
      
@@ -932,17 +934,10 @@ footer{
     }
     
     
-    .event{
-        display: flex;
-        flex-direction: row;
-        margin-top: 40px;
-        height:80vh;
-        justify-content: space-around;
-        
-    }
+   
     
     .card {
-        height: 400px;
+        height: 475px;
        
         border-radius: 20px;
     

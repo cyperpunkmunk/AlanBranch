@@ -420,7 +420,7 @@ nav img{
 @media only screen and (max-height: 772px) {
     nav img {
 
-        height: 70px;
+        height: 60px;
         position:absolute;
         text-align: center;
         right: 0px;
